@@ -269,4 +269,4 @@ int main() {
 | float      | -1.2e38                                | 1.3e38                                 | 4 bytes | %f                    |
 | double     | -1.7e308                               | 1.7e308                                | 8 bytes | %.15f                |
 | char       | -128                                    | 127                                    | 1 byte | %c                    |
-| string     | Depends on size                        | Depends on size                        | Varies | %s                    |
+|      | Depends on size                        | Depends on size                        | Varies | %s                    |
