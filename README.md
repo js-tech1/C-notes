@@ -267,6 +267,6 @@ int main() {
 | short      | -32,768                                 | 32,767                                 | 2 bytes | %hd                   |
 | long       | -9,223,372,036,854,775,808              | 9,223,372,036,854,775,807               | 8 bytes | %ld                   |
 | float      | -1.2e38                                | 1.3e38                                 | 4 bytes | %f                    |
-| double     | -1.7e308                               | 1.7e308                                | 8 bytes | %.15f                |
+| double     | -1.7e308                               | 1.7e308                                | 8 bytes | %.15lf                |
 | char       | -128                                    | 127                                    | 1 byte | %c                    |
 |      | Depends on size                        | Depends on size                        | Varies | %s                    |
